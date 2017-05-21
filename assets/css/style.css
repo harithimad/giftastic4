@@ -1,0 +1,167 @@
+p
+{
+   margin-left: 113px;
+   margin-top: 15px;
+   text-align: center;
+   color: yellow;
+
+}
+
+body
+{
+	font-family: 'Open Sans', sans-serif;
+font-family: 'Spirax', cursive;
+font-size: 20px;
+   	color: white;
+	background-image: url("https://wallpaperscraft.com/image/dark_spot_background_texture_50611_1920x1080.jpg")
+}
+
+
+.leftimg
+{
+	margin-top: 17px;
+	margin-left: 117px;
+}
+.leftp {
+    position: absolute;
+    float: left;
+    margin-top: 85px;
+    margin-left: 178px;
+   	    }
+.rightimg
+{
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-50deg);
+	float: right;
+	margin-top: 98px;
+	margin-right:-159px;
+}
+.rightp
+{
+	    float: right;
+    margin-right: -277px;
+    margin-top: 170px;
+    color: #64ff5b
+}
+.giphy {
+
+   border-top: 1px solid #96d1f8;
+   background: #716c78;
+   background: -webkit-gradient(linear, left top, left bottom, from(#bcc1c4), to(#716c78));
+   background: -webkit-linear-gradient(top, #bcc1c4, #716c78);
+   background: -moz-linear-gradient(top, #bcc1c4, #716c78);
+   background: -ms-linear-gradient(top, #bcc1c4, #716c78);
+   background: -o-linear-gradient(top, #bcc1c4, #716c78);
+   padding: 5.5px 9px;
+   -webkit-border-radius: 14px;
+   -moz-border-radius: 14px;
+   border-radius: 14px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 13px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin: 10px;
+   }
+.giphy:hover {
+   border-top-color: #5b7375;
+   background: #5b7375;
+   color: #ffffff;
+   }
+.giphy:active {
+   border-top-color: #4b7896;
+   background: #4b7896;
+   }
+
+   #giphy-form
+   {
+   	float: right;
+   }
+
+   .img-rounded
+   {
+          margin-right: 50px;
+   	width: 300px;
+   	height: 200px;
+   	border:solid #6d1a1a  4px;
+   }
+   .holder
+   {
+   	display:inline-block;
+   }
+   .ratings
+   {
+   	font-family: 'Open Sans', sans-serif;
+      font-family: 'Spirax', cursive;
+      font-size: 20px;
+   	color: white;
+   }
+
+  
+#add-giphy {
+	    margin-top: 10px;
+	margin-left: 168px;
+   border-top: 1px solid #b2e1ff;
+   background: #154d73;
+   background: -webkit-gradient(linear, left top, left bottom, from(#052152), to(#154d73));
+   background: -webkit-linear-gradient(top, #052152, #154d73);
+   background: -moz-linear-gradient(top, #052152, #154d73);
+   background: -ms-linear-gradient(top, #052152, #154d73);
+   background: -o-linear-gradient(top, #052152, #154d73);
+   padding: 5px 10px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #f5fff7;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#add-giphy:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #a184a1;
+   }
+#add-giphy:active {
+   border-top-color: #0c2230;
+   background: #0c2230;
+   }
+#giphy-input
+{
+	color: black;
+}
+
+@media only screen and (max-width: 991px)
+{
+	.container
+	{
+		width: 100%;
+	}
+	 #giphy-form
+	 {
+	 	margin-left: 20px;
+	 }
+	 .rightimg
+	 {
+	 	margin-right: -172px;
+	 }
+}
+
+@media only screen and (max-width: 843px)
+{
+
+	.leftp
+	{
+		margin-left: 22px;
+	}
+}
